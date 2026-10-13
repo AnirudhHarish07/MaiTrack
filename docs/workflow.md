@@ -10,6 +10,7 @@ Single working file: Google Sheet "CRO Vendor Scorecard"
 | CRO Directory | One row per company found. Cols: A name, B HQ, C type, D services, E verified, F LinkedIn, G source URL, H date added, I fully scored (Y/N), J region, K hard-gate status, L scoring status, M conference presence, N evidence by criterion, O criteria still missing, P flags for scorer, Q research basis |
 | Company Details | One row per Directory row (row number = Directory row). A name, B directory row, C phone, D email, E LinkedIn, F HQ address, G site address, H website, I source URLs, J date accessed, K notes |
 | Scorecard | One row per scored vendor (rows 5+; row 4 is an example). Inputs: A name, B country/city, C hard gate Y/N, D-G, I-L, N-O, Q-R, T-V, X-Y scores, AA location tier. Formulas (do not overwrite): H, M, P, S, W, Z, AB-AE. Formulas are pre-filled down to row 300 |
+| Tier View | Live read-only view of the Scorecard grouped Tier 1 / 2 / 3 / Excluded, best score first (one QUERY formula in A3; updates by itself; do not edit) |
 | Sources & Evidence Log | One row per scored criterion: vendor, sub-criterion, score, source type, source URL, specific fact, date accessed (text, leading apostrophe), confidence note |
 
 ## Order of work for every new CRO
