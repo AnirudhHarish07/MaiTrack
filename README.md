@@ -9,3 +9,4 @@ The data itself lives in the Google Sheet "CRO Vendor Scorecard" (id `1J7G3_EVml
 - `briefs/` - instructions used for helper agents (scoring, gap-fill, contact details)
 - `scripts/` - merge scripts from the original run (reference; they assume the original working-folder layout)
 - `routine/daily_cro_routine_prompt.md` - prompt for the daily Routine that adds about 15 new CROs, each researched by one helper and independently verified by another
+- `routine/consultants_routine_prompt.md` - prompt for the Routine that adds independent ADA/PK/toxicology consultants (Asia) to the "Consultancies" sheet
